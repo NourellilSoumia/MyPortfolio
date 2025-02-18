@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <header className="bg-cyan-950 text-white p-5 ">
-      <div className="max-w-full  md:px-8 ">
+      <div className="w-full  md:px-8 ">
         <div className="flex justify-between p-4 h-16">
           {/* Logo */}
           <div className="flex">
