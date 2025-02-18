@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.imagee {   
+    background-image: url("../src/components/x.jpg");
+    text-align: center;
+  
+  
+  }
+  .bgprojet{
+    background-color:aliceblue;
+    text-align: center;
+  }
+  .cv{
+    background-color: rgb(2, 2, 114);
+    /* top:400px; */
+  bottom: 50px;
+    /* border-radius:solid black; */
+    border-radius: 20px;
+    right: 20px;
+    
+    position: fixed;
+    display: inline-block;
+    color: white;
+    padding: 15px;
+  }
+
+  .cv:hover {
+    transform: translateY(-5px); /* Décale le bouton vers le haut */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Ajoute une ombre portée */
+  }
+  
+
+  
+  
+  
