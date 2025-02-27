@@ -1,8 +1,11 @@
 import { Download, Code, FolderGit2, User, Palette, Database, GitBranch, UserCheck } from 'lucide-react';
 import '../App.css';
+<<<<<<< HEAD
 import cv from '../components/cv.pdf';
 import me from '../components/me.jpg';
 import { DocumentText, UserGroup } from 'heroicons-react';
+=======
+>>>>>>> 9b7db50 (first commit)
 
 export default function Portfolio() {
   const skillCategories = [
@@ -70,6 +73,7 @@ export default function Portfolio() {
         }
       ]
     }
+<<<<<<< HEAD
     , {
       title: "Compétences Bureautiques",
       icon: <DocumentText className="w-6 h-6" />,
@@ -112,11 +116,17 @@ export default function Portfolio() {
         }
       ]
     }
+=======
+>>>>>>> 9b7db50 (first commit)
   ];
 
   return (
     <main className="min-h-screen">
+<<<<<<< HEAD
    
+=======
+      {/* Hero Section */}
+>>>>>>> 9b7db50 (first commit)
       <section className="imagee w-full p-16  md:p-32 mb-10 ">
         <h1 className="m-20 md:m-20 uppercase text-white font-bold text-4xl md:text-7xl">
           nour-ellil soumia
@@ -126,11 +136,19 @@ export default function Portfolio() {
         </h2>
       </section>
 
+<<<<<<< HEAD
      
       <section className="mx-auto w-full px-4 md:px-20 mb-20">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img
            src={me}
+=======
+      {/* About Section */}
+      <section className="mx-auto w-full px-4 md:px-20 mb-20">
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <img
+            src="/src/components/me.jpg"
+>>>>>>> 9b7db50 (first commit)
             alt="Portrait du développeur"
             className="w-32 md:w-40 h-32 md:h-40 rounded-lg object-cover shadow-lg"
           />
@@ -150,12 +168,20 @@ export default function Portfolio() {
 
 
 
+<<<<<<< HEAD
       <section id="projects" className="  py-20 px-4 md:px-20">
+=======
+      <section id="projects" className="mb-12 px-20">
+>>>>>>> 9b7db50 (first commit)
                 <h2 className="text-3xl font-semibold text-center mb-8 flex items-center justify-center gap-2">
                     <FolderGit2 className="text-cyan-700" size={32} />
                     Mes Projets
                 </h2>
+<<<<<<< HEAD
                 <div className="grid md:grid-cols-3 gap-6 ">
+=======
+                <div className="grid md:grid-cols-3 gap-6">
+>>>>>>> 9b7db50 (first commit)
                     {[{'id':1 , url:'https://gitlab.com/fist_tp/chic-click-v3.git' } , {'id':2 , url:'https://github.com/SoumiaNoure-ellil/article.git'},{'id':3 , url:'https://hafssaelaloini.github.io/livres'} ].map((project) => (
                         <div key={project.id} className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300">
                             <div className="project-info p-40 bgprojet">
@@ -168,7 +194,11 @@ export default function Portfolio() {
                     ))}
                 </div>
             </section>
+<<<<<<< HEAD
       
+=======
+      {/* Skills Section */}
+>>>>>>> 9b7db50 (first commit)
       <section className="py-20 px-4 md:px-20 bg-gradient-to-b from-cyan-950 to-slate-900 text-white " id='Competences'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">
@@ -202,10 +232,17 @@ export default function Portfolio() {
       </section>
       
 
+<<<<<<< HEAD
     
       <section className="text-center py-12">
         <a 
           href={cv}
+=======
+      {/* CV Download */}
+      <section className="text-center py-12">
+        <a 
+          href="/src/components/cv.pdf" 
+>>>>>>> 9b7db50 (first commit)
           download 
           className="inline-flex items-center gap-2 bg-cyan-950 text-white font-bold px-6 py-3 rounded-full hover:bg-cyan-700 transition duration-300 shadow-md"
         >
@@ -215,5 +252,25 @@ export default function Portfolio() {
       </section>
     </main>
 
+<<<<<<< HEAD
+=======
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 9b7db50 (first commit)
   );
 }

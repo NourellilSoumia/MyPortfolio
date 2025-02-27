@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 .imagee {   
@@ -35,3 +36,6 @@
   
   
   
+=======
+@tailwind utilities;
+>>>>>>> 9b7db50 (first commit)
