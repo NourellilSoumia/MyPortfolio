@@ -2,7 +2,7 @@
   "name": "my-vite-react-app",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://soumianoure-ellil.github.io/Portfolio/",
+  "homepage": "https://nourellilsoumia.github.io/MyPortfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
