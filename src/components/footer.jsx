@@ -46,17 +46,10 @@ export default function Footer() {
                 <h3 className="font-semibold">Téléphone</h3>
               </div>
               <a 
-<<<<<<< HEAD
                 href="tel" 
                 className="hover:text-cyan-300 transition-colors"
               >
                 +212 7 07 78 48 16
-=======
-                href="tel:+33600000000" 
-                className="hover:text-cyan-300 transition-colors"
-              >
-                +212 6 00 00 00 00
->>>>>>> 9b7db50 (first commit)
               </a>
             </div>
           </div>
