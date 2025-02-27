@@ -150,12 +150,12 @@ export default function Portfolio() {
 
 
 
-      <section id="projects" className="  py-20 px-4 md:px-20 sm:p-2">
+      <section id="projects" className="  py-20 px-4 md:px-20">
                 <h2 className="text-3xl font-semibold text-center mb-8 flex items-center justify-center gap-2">
                     <FolderGit2 className="text-cyan-700" size={32} />
                     Mes Projets
                 </h2>
-                <div className="grid md:grid-cols-3 gap-6  ">
+                <div className="grid md:grid-cols-3 gap-6 ">
                     {[{'id':1 , url:'https://gitlab.com/fist_tp/chic-click-v3.git' } , {'id':2 , url:'https://github.com/SoumiaNoure-ellil/article.git'},{'id':3 , url:'https://hafssaelaloini.github.io/livres'} ].map((project) => (
                         <div key={project.id} className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300">
                             <div className="project-info p-40 bgprojet">
