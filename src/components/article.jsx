@@ -118,7 +118,7 @@ export default function Portfolio() {
     <main className="min-h-screen">
    
       <section className="imagee w-full p-16  md:p-32 mb-10 ">
-        <h1 className="m-20 md:m-20 uppercase text-white font-bold text-4xl md:text-7xl">
+        <h1 className="m-20 md:m-16 uppercase text-white font-bold text-4xl md:text-7xl ">
           nour-ellil soumia
         </h1>
         <h2 className="text-white text-2xl md:text-4xl -mt-8 md:-mt-14 m-10">
@@ -132,7 +132,7 @@ export default function Portfolio() {
           <img
            src={me}
             alt="Portrait du développeur"
-            className="w-32 md:w-40 h-32 md:h-40 rounded-lg object-cover shadow-lg"
+            className="w-32 md:w-44 h-32 md:h-48 rounded-lg object-cover shadow-lg"
           />
           <div className="border p-4 md:p-6 rounded-lg shadow-md bg-white flex-grow">
             <h2 className="text-2xl md:text-3xl font-semibold mb-4 flex items-center gap-2">
